@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "wrangler pages dev ./public --port 3000",
+    "deploy": "wrangler pages deploy ./public"
+  },
+  "devDependencies": {
+    "wrangler": "^3.19.0"
+  }
+}
